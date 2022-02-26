@@ -1,4 +1,4 @@
-![](https://media.giphy.com/media/NGvR2CWwg9itkV88Y8/giphy.gif)
+![](https://media.giphy.com/media/Df5JQeKtHFlaoLSu4d/giphy.gif)
 
 ```js
 function App() {
