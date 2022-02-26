@@ -1,8 +1,9 @@
 ```js
+
 function App() {
   const [user, setUser] = useState<string>('');
 
-  let boi = 'sa';
+  let boi = 'Two Approach';
   const UserHandler = () => {
     setUser(boi);
   }
@@ -20,4 +21,5 @@ function App() {
     </div>
   );
 }
+
 ```
