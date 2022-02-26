@@ -1,4 +1,4 @@
-```
+```javascript
 function App() {
   const [user, setUser] = useState<string>('');
 
