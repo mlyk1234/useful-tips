@@ -2,7 +2,7 @@
 function App() {
   const [user, setUser] = useState<string>('');
 
-  let boi = 'Kratos\'son';
+  let boi = 'Kratos`s son';
   const UserHandler = () => {
     setUser(boi);
   }
