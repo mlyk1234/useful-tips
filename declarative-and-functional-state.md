@@ -3,8 +3,10 @@
 ```js
 function App() {
   const [user, setUser] = useState<string>('');
-
-  let boi = 'Kratos`s son';
+  const myStyle = {
+    width: '300px',
+  }
+  let boi = "kratos's calling atreus";
   const UserHandler = () => {
     setUser(boi);
   }
@@ -12,12 +14,12 @@ function App() {
   return (
     <div>
       <h1>
-        <input value={boi}></input>
-        <button onClick={() => setUser(boi)}>Set with functional form</button>
+        
+        <button onClick={() => setUser(boi + ' but with functional form')}>Set with functional form</button>
         <button onClick={UserHandler}>Set with declarative form</button>
       </h1>
       <h2>
-      <input value={user}></input>
+      <input style={myStyle} value={user}></input>
       </h2>
     </div>
   );
