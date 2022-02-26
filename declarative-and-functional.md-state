@@ -1,4 +1,3 @@
 ```js
-function App() {
-const [user, setUser] = useState<string>('');
+function App() {}
 ```
