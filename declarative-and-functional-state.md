@@ -25,3 +25,7 @@ function App() {
   );
 }
 ```
+## Use cases  
+1. Form options  
+2. Button Event Trigger
+3. More on this later!
