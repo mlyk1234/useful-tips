@@ -1,3 +1,4 @@
+![](https://media.giphy.com/media/7ezJodj5j9vCOduwUU/giphy.gif)
 ```js
 function App() {
   const [user, setUser] = useState<string>('');
