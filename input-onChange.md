@@ -15,3 +15,7 @@ function App() {
   );
 }
 ```
+## Use cases  
+1. Spelling checker  
+2. Account validation
+3. Input tracker
